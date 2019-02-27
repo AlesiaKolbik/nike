@@ -279,9 +279,9 @@ header {
 .zipper {
     display: block;
     position: absolute;
-    top: 20%;
-    left: 48%;
-    width: 50%;
+    top: 0;
+    left: 40%;
+    width: 58%;
 }
 
 .block-left, .block-right {
@@ -404,11 +404,6 @@ header {
 .boot-white{
     width: calc(100% - 200px);
     height: 731px;
-    position: relative;
-    background-image: url('img/boot-white.png');
-    background-repeat: no-repeat;
-    background-position: 0 198px;
-    background-size: 86%;
 }
 .section-1 .content{
     width: 70%;
@@ -416,38 +411,28 @@ header {
     z-index: 3;
     position: relative;
 }
-.boot-white > .line{
+.boot-white > img{
     position: absolute;
-    display: inline-block;
+    width: 1000px;
+    top: 20%;
+    left: 0;
 }
 
-.line-1{
-    left: -22%;
-    top: 53%;
-}
-.line-2{
-    left: 69%;
-    top: 57%;
-}
-.line-3{
-    left: 45%;
-    top: 33%;
-}
 .legend{
     color: #00ecf4;
     position: absolute;
 }
 .legend-1{
-    left: -38%;
+    left: -11%;
     top: 46%;
 }
 .legend-2{
-    right: -14%;
-    top: 51%;
+    right: -10%;
+    top: 56%;
 }
 .legend-3{
-    left: 71%;
-    top: 28%;
+    left: 74%;
+    top: 26%;
 }
 
 .img-boots img:first-child{
@@ -486,6 +471,9 @@ footer{
 }
 footer a{
     color: #437077;
+}
+footer a:hover{
+    color: #558289;
 }
 footer nav li a{
     display: inline-block;
